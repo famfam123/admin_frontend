@@ -1,0 +1,53 @@
+/* Users.css */
+
+.user-management-title {
+    font-weight: 600;
+    color: #1890ff;
+}
+
+.add-user-button {
+    background-color: #52c41a; /* Green */
+    border-color: #52c41a;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.add-user-button:hover {
+    background-color: #73d13d; /* Lighter green */
+    border-color: #73d13d;
+}
+
+.table-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-card .ant-table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table-card .ant-table-thead > tr > th {
+    background-color: #f0f0f0;
+    font-weight: 600;
+}
+
+.table-card .ant-table-tbody > tr:hover {
+    background-color: #e6f7ff;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-footer .ant-btn {
+    width: 48%;
+}
+
+.reset-password-input {
+    margin-bottom: 12px;
+}
